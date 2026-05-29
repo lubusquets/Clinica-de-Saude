@@ -89,7 +89,32 @@ def listar_pacientes():
         print(f"{i}. {p['nome']} | {p['idade']} anos - Tel: {p['telefone']}")
     print()
 
- 
+def menu():
+    while True:
+        print(' === SISTEMA CLÍNICA VIDA+ === ')
+        print('1. Cadastrar paciente')
+        print('2. Ver estatísticas')
+        print('3. Buscar paciente')
+        print('4. Listar pacientes')
+        print('5. Sair')
+        opcao = input('Escolha uma opção: ').strip()
+        if opcao == '1':
+            cadastrar_paciente()
+        elif opcao == '2':
+            ver_estatisticas()
+        elif opcao == '3':
+            buscar_paciente()
+        elif opcao == '4':
+            listar_pacientes()      
+        elif opcao == '5':
+            print('🖐Saindo do sistema. Até logo!')
+            break
+        else:
+            print('⚠Opção inválida. Tente novamente.\n')
+if __name__ == '__main__':
+    menu()
+    
+
   
 
 
