@@ -16,7 +16,7 @@ def carregar_dados():
             if isinstance(dados, list):
                 return dados
             else:
-                print('⚠Formato do arquivo inválido. Iniciando com lista vazia.')
+                print('⚠ Formato do arquivo inválido. Iniciando com lista vazia.')
                 return []
     except (json.JSONDecodeError, IOError) as e:
         print(f"⚠ Erro ao carregar dados '{arquivo}': {e}. Iniciando com lista vazia.")

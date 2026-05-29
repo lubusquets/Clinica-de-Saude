@@ -1,0 +1,27 @@
+[
+  {
+    "nome": "regina",
+    "idade": 23,
+    "telefone": "11364645"
+  },
+  {
+    "nome": "marcelo",
+    "idade": 45,
+    "telefone": "51644466"
+  },
+  {
+    "nome": "simone",
+    "idade": 32,
+    "telefone": "5644556545"
+  },
+  {
+    "nome": "felie",
+    "idade": 17,
+    "telefone": "5544696633"
+  },
+  {
+    "nome": "luis",
+    "idade": 68,
+    "telefone": "6366958444"
+  }
+]
