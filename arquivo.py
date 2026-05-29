@@ -52,7 +52,7 @@ def cadastrar_paciente():
 
 def ver_estatisticas():
     print(' \n===ESTATÍSTICAS DOS PACIENTES=== ')
-       if not pacientes:
+    if not pacientes:
         print('Nenhum paciente cadastrado.')
         return
     total = len(pacientes)
@@ -65,7 +65,23 @@ def ver_estatisticas():
     print(f'👶Paciente mais novo: {mais_novo["nome"]} ({mais_novo["idade"]} anos)')
     print(f'👴Paciente mais velho: {mais_velho["nome"]} ({mais_velho["idade"]} anos)')
 
+def buscar_paciente():
+    print(' \n===BUSCAR PACIENTE=== ')
+    if not pacientes:
+        print('Nenhum paciente cadastrado.\n')  
+        return
+    nome_busca = input('Digite o nome do paciente: ').strip().lower()
+    encontrados = [p for p in pacientes if nome_busca in p['nome'].lower()]
+    if encontrados:
+        print(f'\n🔍Resultados da busca: ')
+        for p in encontrados:
+            print(f"- {p['nome']} | {p['idade']} anos | {p['telefone']}")
+            print()
+    else:
+        print('❌Nenhum paciente encontrado com esse nome.\n')
 
+
+  
 
 
         
