@@ -6,7 +6,7 @@ arquivo = 'pacientes.json'
 print(' Sistema de Cadastro de Pacientes '.center(50, '-'))
 print()
 
-#carregar dados do arquivo
+#carregar dados do arquivo (se existir)
 def carregar_dados():
     if not os.path.exists(arquivo):
         return []
