@@ -19,7 +19,7 @@ def carregar_dados():
                 print('⚠Formato do arquivo inválido. Iniciando com lista vazia.')
                 return []
     except (json.JSONDecodeError, IOError) as e:
-        print(f"⚠Erro ao carregar dados '{arquivo}': {e}. Iniciando com lista vazia.")
+        print(f"⚠ Erro ao carregar dados '{arquivo}': {e}. Iniciando com lista vazia.")
         return []
     
 #salvar dados no arquivo
@@ -28,7 +28,7 @@ def salvar_dados(pacientes):
         with open(arquivo, 'w', encoding='utf-8') as f:
             json.dump(pacientes, f, ensure_ascii=False, indent=2)
     except IOError as e:
-        print(f"⚠Erro ao salvar dados em '{arquivo}': {e}.")
+        print(f"⚠ Erro ao salvar dados em '{arquivo}': {e}.")
 
 #lista principal (carregada do arquivo)
 pacientes = carregar_dados()
@@ -38,7 +38,7 @@ def cadastrar_paciente():
     try:
         nome = input('Nome do paciente: ').strip()
         if not nome:
-            print('⚠Nome não pode ser vazio.')
+            print('⚠ Nome não pode ser vazio.')
             return
         idade_input = int(input('Idade: ').strip())
         idade = int(idade_input) #pode lançar ValueError)
@@ -46,9 +46,9 @@ def cadastrar_paciente():
         paciente = {'nome': nome, 'idade': idade, 'telefone': telefone}
         pacientes.append(paciente)
         salvar_dados(pacientes) #salvar imediatemente após o cadastro
-        print(f"✅Paciente '{nome}' cadastrado com sucesso!")
-        execpt ValueError:
-        print('⚠Idade inválida. Digite um número inteiro.\n')
+        print(f"✅ Paciente '{nome}' cadastrado com sucesso!")
+    except ValueError:
+        print('⚠ Idade inválida. Digite um número inteiro.\n')
 
 def ver_estatisticas():
     print(' \n===ESTATÍSTICAS DOS PACIENTES=== ')
@@ -60,10 +60,10 @@ def ver_estatisticas():
     media = sum(idades) / total
     mais_novo = min(pacientes, key=lambda p: p['idade'])
     mais_velho = max(pacientes, key=lambda p: p['idade'])
-    print(f'🚻Total de pacientes: {total}')
-    print(f'📊Idade média: {media:.2f} anos')
-    print(f'👶Paciente mais novo: {mais_novo["nome"]} ({mais_novo["idade"]} anos)')
-    print(f'👴Paciente mais velho: {mais_velho["nome"]} ({mais_velho["idade"]} anos)')
+    print(f'🚻 Total de pacientes: {total}')
+    print(f'📊 Idade média: {media:.2f} anos')
+    print(f'👶 Paciente mais novo: {mais_novo["nome"]} ({mais_novo["idade"]} anos)')
+    print(f'👴 Paciente mais velho: {mais_velho["nome"]} ({mais_velho["idade"]} anos)')
 
 def buscar_paciente():
     print(' \n===BUSCAR PACIENTE=== ')
@@ -73,12 +73,12 @@ def buscar_paciente():
     nome_busca = input('Digite o nome do paciente: ').strip().lower()
     encontrados = [p for p in pacientes if nome_busca in p['nome'].lower()]
     if encontrados:
-        print(f'\n🔍Resultados da busca: ')
+        print(f'\n🔍 Resultados da busca: ')
         for p in encontrados:
             print(f"- {p['nome']} | {p['idade']} anos | {p['telefone']}")
             print()
     else:
-        print('❌Nenhum paciente encontrado com esse nome.\n')
+        print('❌ Nenhum paciente encontrado com esse nome.\n')
 
 def listar_pacientes():
     print(' \n===LISTA DE PACIENTES=== ')
@@ -107,13 +107,13 @@ def menu():
         elif opcao == '4':
             listar_pacientes()      
         elif opcao == '5':
-            print('🖐Saindo do sistema. Até logo!')
+            print('🖐 Saindo do sistema. Até logo!')
             break
         else:
-            print('⚠Opção inválida. Tente novamente.\n')
+            print('⚠ Opção inválida. Tente novamente.\n')
 if __name__ == '__main__':
     menu()
-    
+
 
   
 
