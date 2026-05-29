@@ -50,6 +50,23 @@ def cadastrar_paciente():
         execpt ValueError:
         print('⚠Idade inválida. Digite um número inteiro.\n')
 
+def ver_estatisticas():
+    print(' \n===ESTATÍSTICAS DOS PACIENTES=== ')
+       if not pacientes:
+        print('Nenhum paciente cadastrado.')
+        return
+    total = len(pacientes)
+    idades = [p['idade'] for p in pacientes]
+    media = sum(idades) / total
+    mais_novo = min(pacientes, key=lambda p: p['idade'])
+    mais_velho = max(pacientes, key=lambda p: p['idade'])
+    print(f'🚻Total de pacientes: {total}')
+    print(f'📊Idade média: {media:.2f} anos')
+    print(f'👶Paciente mais novo: {mais_novo["nome"]} ({mais_novo["idade"]} anos)')
+    print(f'👴Paciente mais velho: {mais_velho["nome"]} ({mais_velho["idade"]} anos)')
+
+
+
 
         
   
