@@ -80,7 +80,16 @@ def buscar_paciente():
     else:
         print('❌Nenhum paciente encontrado com esse nome.\n')
 
+def listar_pacientes():
+    print(' \n===LISTA DE PACIENTES=== ')
+    if not pacientes:
+        print('Nenhum paciente cadastrado.\n')
+        return
+    for i, p in enumerate(pacientes, start=1):
+        print(f"{i}. {p['nome']} | {p['idade']} anos - Tel: {p['telefone']}")
+    print()
 
+ 
   
 
 
