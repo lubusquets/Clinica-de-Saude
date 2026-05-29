@@ -22,3 +22,34 @@ def carregar_dados():
         print(f"⚠Erro ao carregar dados '{arquivo}': {e}. Iniciando com lista vazia.")
         return []
     
+#salvar dados no arquivo
+def salvar_dados(pacientes):    
+    try:
+        with open(arquivo, 'w', encoding='utf-8') as f:
+            json.dump(pacientes, f, ensure_ascii=False, indent=2)
+    except IOError as e:
+        print(f"⚠Erro ao salvar dados em '{arquivo}': {e}.")
+
+#lista principal (carregada do arquivo)
+pacientes = carregar_dados()
+
+def cadastrar_paciente():
+    print(' \n===CADASTRAR PACIENTE=== ')
+    try:
+        nome = input('Nome do paciente: ').strip()
+        if not nome:
+            print('⚠Nome não pode ser vazio.')
+            return
+        idade_input = int(input('Idade: ').strip())
+        idade = int(idade_input) #pode lançar ValueError)
+        telefone = input('telefone: ').strip()
+        paciente = {'nome': nome, 'idade': idade, 'telefone': telefone}
+        pacientes.append(paciente)
+        salvar_dados(pacientes) #salvar imediatemente após o cadastro
+        print(f"✅Paciente '{nome}' cadastrado com sucesso!")
+        execpt ValueError:
+        print('⚠Idade inválida. Digite um número inteiro.\n')
+
+
+        
+  
