@@ -1,8 +1,7 @@
-#  :hospital: Clínica de Saúde
-*Sistema de gestão de cadastro de pacientes para clínica de saúde.*
+#  :hospital: Projeto Integrado Inovação - Clínica Vida+
 
-- O presente projeto propõe o desenvolvimento de um Sistema de Gestão para a Clínica Vida+, que teve como objetivo solucionar os problemas de processos manuais identificados na clínica. A proposta visa demonstrar como a tecnologia pode otimizar processos na área da saúde, trazendo eficiência e organização.
-- Com isso, espera-se não apenas atender às necessidades imediatas da Clínica Vida+, mas também demonstrar como a tecnologia pode ser empregada para promover inovação, organização e qualidade no setor de saúde.
-- Este trabalho tem como objetivo aplicar os conhecimentos adquiridos ao longo do semestre para criar uma solução tecnológica completa e funcional, respeitando as diretrizes do portfólio solicitado pela Faculdade Anhanguera.
+> Sistema acadêmico desenvolvido em Python para gestão de pacientes, aplicando Scrum, JSON, Álgebra Booleana, UML e Engenharia de Software.
+
+Desenvolvido no segundo semestre do curso de Análise e Desenvolvimento de Sistemas, o projeto tem como objetivo demonstrar a aplicação prática dos conhecimentos adquiridos ao longo do semestre por meio da criação de uma solução tecnológica para a gestão de uma clínica médica, integrando conceitos de programação, engenharia de software, gestão de projetos e modelagem de sistemas.
 
 
