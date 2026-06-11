@@ -28,11 +28,44 @@ Desenvolvido no segundo semestre do curso de Análise e Desenvolvimento de Siste
 |:triangular_ruler: UML	Modelagem de | Casos de Uso|
 |:pencil2: Pseudocódigo	| Simulação de fila de atendimento|
 
-# :1234:Tabela Verdade
-*Tabelas utilizadas neste projeto*
+# :closed_lock_with_key: Sistema de Controle de Acesso Automático
+*Tabelas verdade criadas para este projeto.*
+
+Nesta primeira tabela - **Tabela Verdade para Consulta Normal (CN = V)** - o paciente pode ser atendido em 3 situações diferentes que são as células marcadas em azul claro.
 
 ![Error](https://github.com/lubusquets/Clinica-de-Saude/blob/main/img/Tabela1.jpeg?raw=true)
+
+Na segunda tabela - **Tabela Verdade para Consulta de Emergencia (E = V)** - o paciente pode ser atendido em 6 situações diferentes . Células também marcadas em azul claro.
+
 ![Error](https://github.com/lubusquets/Clinica-de-Saude/blob/main/img/Tabela2.jpeg?raw=true)
+
+***Explicando as tabelas acima:**
+
+Se um paciente chega com as seguintes condições, ele será atendido?
+
+1.Sem agendamento (A = F)
+2.Documentos OK (B = V)
+3.Médico disponível (C = V)
+4.Pagamentos atrasados (D = F)
+
+Levando em consideração as premissas informadas acima, para Consulta Normal -expressão: **CN=(A∧B∧C)∨(B∧C∧D)** - nós temos os seguintes resultados:
+Substituindo:
+
+**Primeiro grupo: F ∧ V ∧ V = F**
+
+**Segundo grupo: V ∧ V ∧ F = F**
+
+:x: Nesta situação o paciente não será atendido para consulta normal.
+
+Para Consulta de Emergência - expressão: **E=C∧(B∨D)** - temos:
+
+Substituindo:
+
+Primeiro grupo: C = V
+
+Segundo grupo: V ∨ F = V
+
+:white_check_mark: Sendo assim **V ∧ V = V**, nesta situação o paciente será atendido na emergência.
 
 # :busts_in_silhouette: Diagrama de Casos de Uso e Relacionamentos
 
