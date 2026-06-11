@@ -34,9 +34,16 @@ Desenvolvido no segundo semestre do curso de Análise e Desenvolvimento de Siste
 ![Error](https://github.com/lubusquets/Clinica-de-Saude/blob/main/img/Tabela1.jpeg?raw=true)
 ![Error](https://github.com/lubusquets/Clinica-de-Saude/blob/main/img/Tabela2.jpeg?raw=true)
 
-# :1234: Diagrama de Casos de Uso e Relacionamentos
+# :busts_in_silhouette: Diagrama de Casos de Uso e Relacionamentos
 
-https://github.com/lubusquets/Clinica-de-Saude/blob/main/img/casos-de-uso.jpeg?raw=true
+**Regras utilizadas:** 
+
+-	Agendamento e Confirmação exigem que o paciente esteja cadastrado (relação include).
+- Cancelamento é realizado apenas pelo médico.
+-	Toda vez que uma receita é gerada, o sistema dispara automaticamente a impressão (relação extend).
+
+
+![Error](https://github.com/lubusquets/Clinica-de-Saude/blob/main/img/casos-de-uso.jpeg?raw=true)
 
 # :clipboard: Competências Desenvolvidas
 
