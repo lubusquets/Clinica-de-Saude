@@ -28,17 +28,8 @@ Desenvolvido no segundo semestre do curso de Análise e Desenvolvimento de Siste
 |:triangular_ruler: UML	Modelagem de | Casos de Uso|
 |:pencil2: Pseudocódigo	| Simulação de fila de atendimento|
 
-# :open_file_folder: Estrutura do Projeto
-
-📦 Projeto
- ┣ 📜 main.py
- ┣ 📜 pacientes.json
- ┣ 📜 README.md
- ┗ 📂 documentos
-    ┣ 📄 Relatório
-    ┣ 📄 Diagrama de Casos de Uso
-    ┗ 📄 Evidências das Sprints
-
+# :1234:Tabela Verdade
+*Tabelas utilizadas neste projeto*
 
 
 # :clipboard: Competências Desenvolvidas
