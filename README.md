@@ -39,4 +39,14 @@ Desenvolvido no segundo semestre do curso de Análise e Desenvolvimento de Siste
     ┣ 📄 Diagrama de Casos de Uso
     ┗ 📄 Evidências das Sprints
 
+ ```
+ text Projeto/ │
+├── main.py
+├── pacientes.json
+├── README.md │
+└── documentos/
+├── Relatorio.pdf
+├── Diagrama_Casos_de_Uso.png
+└── Evidencias_Sprints/
+```
     
