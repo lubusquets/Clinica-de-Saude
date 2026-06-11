@@ -39,14 +39,28 @@ Desenvolvido no segundo semestre do curso de Análise e Desenvolvimento de Siste
     ┣ 📄 Diagrama de Casos de Uso
     ┗ 📄 Evidências das Sprints
 
- ```
- text Projeto/ │
-├── main.py
-├── pacientes.json
-├── README.md │
-└── documentos/
-├── Relatorio.pdf
-├── Diagrama_Casos_de_Uso.png
-└── Evidencias_Sprints/
-```
-    
+
+
+# :clipboard: Competências Desenvolvidas
+
+**:computer: Programação**
+- Python
+- Funções
+- Listas
+- Dicionários
+
+**:floppy_disk: Persistência de Dados**
+- JSON
+
+**:clipboard: Engenharia de Software**
+- Scrum
+- Backlog
+- Sprints
+
+**🧠 Lógica Computacional**
+- Álgebra Booleana
+- Tabelas Verdade
+
+**:triangular_ruler: Modelagem**
+- UML
+- Pseudocódigo
