@@ -28,7 +28,7 @@ Desenvolvido no segundo semestre do curso de Análise e Desenvolvimento de Siste
 |:triangular_ruler: UML	Modelagem de | Casos de Uso|
 |:pencil2: Pseudocódigo	| Simulação de fila de atendimento|
 
-# 📂 Estrutura do Projeto
+# :open_file_folder: Estrutura do Projeto
 
 📦 Projeto
  ┣ 📜 main.py
@@ -57,10 +57,12 @@ Desenvolvido no segundo semestre do curso de Análise e Desenvolvimento de Siste
 - Backlog
 - Sprints
 
-**🧠 Lógica Computacional**
+**:brain: Lógica Computacional**
 - Álgebra Booleana
 - Tabelas Verdade
 
 **:triangular_ruler: Modelagem**
 - UML
 - Pseudocódigo
+
+
