@@ -28,3 +28,15 @@ Desenvolvido no segundo semestre do curso de Análise e Desenvolvimento de Siste
 |📐 UML	Modelagem de | Casos de Uso|
 |✏️ Pseudocódigo	| Simulação de fila de atendimento|
 
+# 📂 Estrutura do Projeto
+
+📦 Projeto
+ ┣ 📜 main.py
+ ┣ 📜 pacientes.json
+ ┣ 📜 README.md
+ ┗ 📂 documentos
+    ┣ 📄 Relatório
+    ┣ 📄 Diagrama de Casos de Uso
+    ┗ 📄 Evidências das Sprints
+
+    
