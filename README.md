@@ -43,12 +43,12 @@ Na segunda tabela - **Tabela Verdade para Consulta de Emergencia (E = V)** - o p
 
 Se um paciente chega com as seguintes condições, ele será atendido?
 
-1.Sem agendamento (A = F)
-2.Documentos OK (B = V)
-3.Médico disponível (C = V)
-4.Pagamentos atrasados (D = F)
+1. Sem agendamento (A = F)
+2. Documentos OK (B = V)
+3. Médico disponível (C = V)
+4. Pagamentos atrasados (D = F)
 
-Levando em consideração as premissas informadas acima, para Consulta Normal -expressão: **CN=(A∧B∧C)∨(B∧C∧D)** - nós temos os seguintes resultados:
+Levando em consideração as premissas informadas acima, para Consulta Normal - expressão: **CN=(A∧B∧C)∨(B∧C∧D)** - nós temos os seguintes resultados:
 Substituindo:
 
 **Primeiro grupo: F ∧ V ∧ V = F**
