@@ -31,6 +31,12 @@ Desenvolvido no segundo semestre do curso de Análise e Desenvolvimento de Siste
 # :1234:Tabela Verdade
 *Tabelas utilizadas neste projeto*
 
+![Error](https://github.com/lubusquets/Clinica-de-Saude/blob/main/img/Tabela1.jpeg?raw=true)
+![Error](https://github.com/lubusquets/Clinica-de-Saude/blob/main/img/Tabela2.jpeg?raw=true)
+
+# :1234: Diagrama de Casos de Uso e Relacionamentos
+
+https://github.com/lubusquets/Clinica-de-Saude/blob/main/img/casos-de-uso.jpeg?raw=true
 
 # :clipboard: Competências Desenvolvidas
 
