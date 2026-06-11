@@ -16,17 +16,17 @@ Desenvolvido no segundo semestre do curso de Análise e Desenvolvimento de Siste
 - :chart_with_upwards_trend: Gestão do projeto utilizando Scrum e Trello
 - :dart: Modelagem UML com Diagrama de Casos de Uso
 
-# 🛠️ Tecnologias Utilizadas
+# :hammer_and_wrench: Tecnologias Utilizadas
 
 | Tecnologia | Aplicação |
 |---|---|
-|🐍 Python	| Desenvolvimento do sistema|
-|📄 JSON	| Armazenamento persistente dos dados|
-|📋 Scrum	| Gerenciamento ágil do projeto|
-|📌 Trello	| Organização das Sprints|
-|🧠 Lógica Booleana	| Controle de acesso|
-|📐 UML	Modelagem de | Casos de Uso|
-|✏️ Pseudocódigo	| Simulação de fila de atendimento|
+|:snake: Python	| Desenvolvimento do sistema|
+|:page_facing_up: JSON	| Armazenamento persistente dos dados|
+|:clipboard: Scrum	| Gerenciamento ágil do projeto|
+|:pushpin: Trello	| Organização das Sprints|
+|:brain: Lógica Booleana	| Controle de acesso|
+|:triangular_ruler: UML	Modelagem de | Casos de Uso|
+|:pencil2: Pseudocódigo	| Simulação de fila de atendimento|
 
 # 📂 Estrutura do Projeto
 
