@@ -36,7 +36,7 @@ O quadro foi organizado em etapas que representam o fluxo de desenvolvimento do 
 
 Essa abordagem proporcionou maior controle sobre o andamento do projeto, melhor organização das demandas e acompanhamento contínuo da evolução do sistema.
 
-
+![Error](https://github.com/lubusquets/Clinica-de-Saude/blob/main/img/Trello.jpeg?raw=true)
 
 **Fluxo de Trabalho:**
 
