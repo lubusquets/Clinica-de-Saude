@@ -28,6 +28,26 @@ Desenvolvido no segundo semestre do curso de Análise e Desenvolvimento de Siste
 |:triangular_ruler: UML	Modelagem de | Casos de Uso|
 |:pencil2: Pseudocódigo	| Simulação de fila de atendimento|
 
+# :bar_chart: Gestão do Projeto com Scrum e Trello
+
+Para o planejamento e acompanhamento das atividades, foi utilizada a metodologia **Scrum**, com apoio da ferramenta **Trello** para o gerenciamento das tarefas e das Sprints.
+
+O quadro foi organizado em etapas que representam o fluxo de desenvolvimento do projeto, permitindo acompanhar a evolução das atividades desde o levantamento dos requisitos até a entrega final.
+
+Essa abordagem proporcionou maior controle sobre o andamento do projeto, melhor organização das demandas e acompanhamento contínuo da evolução do sistema.
+
+
+
+**Fluxo de Trabalho:**
+
+1. **Backlog** – Organização dos requisitos e critérios de aceitação.
+2. **Sprint Atual** – Atividades planejadas para o ciclo de desenvolvimento.
+3. **Em Progresso** – Funcionalidades em desenvolvimento.
+4. **Teste** – Validação das funcionalidades e coleta de feedback dos usuários.
+5. **Concluído** – Tarefas finalizadas e entregues.
+
+
+
 # :closed_lock_with_key: Sistema de Controle de Acesso Automático
 *Tabelas verdade criadas para este projeto.*
 
